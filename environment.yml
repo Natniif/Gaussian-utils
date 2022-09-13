@@ -1,0 +1,9 @@
+name: base
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - openpyxl=3.0.9=pyhd3eb1b0_0
+  - pip:
+    - openpyxl-utilities==0.5
